@@ -19,13 +19,13 @@ $(call inherit-product, vendor/huawei/g630/g630-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
+    qcrilmsgtunnel \
     TimeService
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
     com.qualcomm.location.vzw_library \
     qcnvitems \
-    imslibrary \
     qcrilhook
 
 # Prebuilt vendor/libs needed for compilation
