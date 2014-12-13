@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),c8816)
+ifeq ($(TARGET_DEVICE),g630)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location.vzw_library
