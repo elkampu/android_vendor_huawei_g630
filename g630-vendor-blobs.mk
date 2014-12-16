@@ -224,6 +224,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g630/proprietary/xbin/wifi_aging:system/xbin/wifi_aging \
     vendor/huawei/g630/proprietary/xbin/wifi_power_off:system/xbin/wifi_power_off 
 
+#Wifi
+PRODUCT_COPY_FILES += \
+    vendor/huawei/g630/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko
+
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/g630/proprietary/bin/adsprpcd:system/bin/adsprpcd \
