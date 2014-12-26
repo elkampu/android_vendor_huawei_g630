@@ -224,11 +224,116 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g630/proprietary/xbin/wifi_aging:system/xbin/wifi_aging \
     vendor/huawei/g630/proprietary/xbin/wifi_power_off:system/xbin/wifi_power_off 
 
-#Wifi
+#Modules Kernel
 PRODUCT_COPY_FILES += \
-    vendor/huawei/g630/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko
+    vendor/huawei/g630/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
+    vendor/huawei/g630/proprietary/lib/modules/a8293.ko:system/lib/modules/a8293.ko \
+    vendor/huawei/g630/proprietary/lib/modules/af9013.ko:system/lib/modules/af9013.ko \
+    vendor/huawei/g630/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
+    vendor/huawei/g630/proprietary/lib/modules/atbm8830.ko:system/lib/modules/atbm8830.ko \
+    vendor/huawei/g630/proprietary/lib/modules/au8522.ko:system/lib/modules/au8522.ko \
+    vendor/huawei/g630/proprietary/lib/modules/bcm3510.ko:system/lib/modules/bcm3510.ko \
+    vendor/huawei/g630/proprietary/lib/modules/cx22700.ko:system/lib/modules/cx22700.ko \
+    vendor/huawei/g630/proprietary/lib/modules/cx22702.ko:system/lib/modules/cx22702.ko \
+    vendor/huawei/g630/proprietary/lib/modules/cx24110.ko:system/lib/modules/cx24110.ko \
+    vendor/huawei/g630/proprietary/lib/modules/cx24113.ko:system/lib/modules/cx24113.ko \
+    vendor/huawei/g630/proprietary/lib/modules/cx24116.ko:system/lib/modules/cx24116.ko \
+    vendor/huawei/g630/proprietary/lib/modules/cx24123.ko:system/lib/modules/cx24123.ko \
+    vendor/huawei/g630/proprietary/lib/modules/cxd2820r.ko:system/lib/modules/cxd2820r.ko \
+    vendor/huawei/g630/proprietary/lib/modules/dib0070.ko:system/lib/modules/dib0070.ko \
+    vendor/huawei/g630/proprietary/lib/modules/dib0090.ko:system/lib/modules/dib0090.ko \
+    vendor/huawei/g630/proprietary/lib/modules/dib3000mb.ko:system/lib/modules/dib3000mb.ko \
+    vendor/huawei/g630/proprietary/lib/modules/dib3000mc.ko:system/lib/modules/dib3000mc.ko \
+    vendor/huawei/g630/proprietary/lib/modules/dib7000m.ko:system/lib/modules/dib7000m.ko \
+    vendor/huawei/g630/proprietary/lib/modules/dib7000p.ko:system/lib/modules/dib7000p.ko \
+    vendor/huawei/g630/proprietary/lib/modules/dib8000.ko:system/lib/modules/dib8000.ko \
+    vendor/huawei/g630/proprietary/lib/modules/dib9000.ko:system/lib/modules/dib9000.ko \
+    vendor/huawei/g630/proprietary/lib/modules/dibx000_common.ko:system/lib/modules/dibx000_common.ko \
+    vendor/huawei/g630/proprietary/lib/modules/dma_test.ko:system/lib/modules/dma_test.ko \
+    vendor/huawei/g630/proprietary/lib/modules/drxd.ko:system/lib/modules/drxd.ko \
+    vendor/huawei/g630/proprietary/lib/modules/drxk.ko:system/lib/modules/drxk.ko \
+    vendor/huawei/g630/proprietary/lib/modules/ds3000.ko:system/lib/modules/ds3000.ko \
+    vendor/huawei/g630/proprietary/lib/modules/dvb-pll.ko:system/lib/modules/dvb-pll.ko \
+    vendor/huawei/g630/proprietary/lib/modules/ec100.ko:system/lib/modules/ec100.ko \
+    vendor/huawei/g630/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
+    vendor/huawei/g630/proprietary/lib/modules/gpio_axis.ko:system/lib/modules/gpio_axis.ko \
+    vendor/huawei/g630/proprietary/lib/modules/gpio_event.ko:system/lib/modules/gpio_event.ko \
+    vendor/huawei/g630/proprietary/lib/modules/gpio_input.ko:system/lib/modules/gpio_input.ko \
+    vendor/huawei/g630/proprietary/lib/modules/gpio_matrix.ko:system/lib/modules/gpio_matrix.ko \
+    vendor/huawei/g630/proprietary/lib/modules/gpio_output.ko:system/lib/modules/gpio_output.ko \
+    vendor/huawei/g630/proprietary/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko \
+    vendor/huawei/g630/proprietary/lib/modules/hd29l2.ko:system/lib/modules/hd29l2.ko \
+    vendor/huawei/g630/proprietary/lib/modules/isl6405.ko:system/lib/modules/isl6405.ko \
+    vendor/huawei/g630/proprietary/lib/modules/isl6421.ko:system/lib/modules/isl6421.ko \
+    vendor/huawei/g630/proprietary/lib/modules/isl6423.ko:system/lib/modules/isl6423.ko \
+    vendor/huawei/g630/proprietary/lib/modules/it913x-fe.ko:system/lib/modules/it913x-fe.ko \
+    vendor/huawei/g630/proprietary/lib/modules/itd1000.ko:system/lib/modules/itd1000.ko \
+    vendor/huawei/g630/proprietary/lib/modules/ix2505v.ko:system/lib/modules/ix2505v.ko \
+    vendor/huawei/g630/proprietary/lib/modules/l64781.ko:system/lib/modules/l64781.ko \
+    vendor/huawei/g630/proprietary/lib/modules/lgdt3305.ko:system/lib/modules/lgdt3305.ko \
+    vendor/huawei/g630/proprietary/lib/modules/lgdt330x.ko:system/lib/modules/lgdt330x.ko \
+    vendor/huawei/g630/proprietary/lib/modules/lgs8gl5.ko:system/lib/modules/lgs8gl5.ko \
+    vendor/huawei/g630/proprietary/lib/modules/lgs8gxx.ko:system/lib/modules/lgs8gxx.ko \
+    vendor/huawei/g630/proprietary/lib/modules/lnbp21.ko:system/lib/modules/lnbp21.ko \
+    vendor/huawei/g630/proprietary/lib/modules/lnbp22.ko:system/lib/modules/lnbp22.ko \
+    vendor/huawei/g630/proprietary/lib/modules/m88rs2000.ko:system/lib/modules/m88rs2000.ko \
+    vendor/huawei/g630/proprietary/lib/modules/mb86a16.ko:system/lib/modules/mb86a16.ko \
+    vendor/huawei/g630/proprietary/lib/modules/mb86a20s.ko:system/lib/modules/mb86a20s.ko \
+    vendor/huawei/g630/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
+    vendor/huawei/g630/proprietary/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
+    vendor/huawei/g630/proprietary/lib/modules/mt312.ko:system/lib/modules/mt312.ko \
+    vendor/huawei/g630/proprietary/lib/modules/mt352.ko:system/lib/modules/mt352.ko \
+    vendor/huawei/g630/proprietary/lib/modules/nxt200x.ko:system/lib/modules/nxt200x.ko \
+    vendor/huawei/g630/proprietary/lib/modules/nxt6000.ko:system/lib/modules/nxt6000.ko \
+    vendor/huawei/g630/proprietary/lib/modules/oprofile.ko:system/lib/modules/oprofile.ko \
+    vendor/huawei/g630/proprietary/lib/modules/or51132.ko:system/lib/modules/or51132.ko \
+    vendor/huawei/g630/proprietary/lib/modules/or51211.ko:system/lib/modules/or51211.ko \
+    vendor/huawei/g630/proprietary/lib/modules/qcedev.ko:system/lib/modules/qcedev.ko \
+    vendor/huawei/g630/proprietary/lib/modules/qcrypto.ko:system/lib/modules/qcrypto.ko \
+    vendor/huawei/g630/proprietary/lib/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
+    vendor/huawei/g630/proprietary/lib/modules/reset_modem.ko:system/lib/modules/reset_modem.ko \
+    vendor/huawei/g630/proprietary/lib/modules/rtl2830.ko:system/lib/modules/rtl2830.ko \
+    vendor/huawei/g630/proprietary/lib/modules/s5h1409.ko:system/lib/modules/s5h1409.ko \
+    vendor/huawei/g630/proprietary/lib/modules/s5h1411.ko:system/lib/modules/s5h1411.ko \
+    vendor/huawei/g630/proprietary/lib/modules/s5h1420.ko:system/lib/modules/s5h1420.ko \
+    vendor/huawei/g630/proprietary/lib/modules/s5h1432.ko:system/lib/modules/s5h1432.ko \
+    vendor/huawei/g630/proprietary/lib/modules/s921.ko:system/lib/modules/s921.ko \
+    vendor/huawei/g630/proprietary/lib/modules/si21xx.ko:system/lib/modules/si21xx.ko \
+    vendor/huawei/g630/proprietary/lib/modules/smsmdtv.ko:system/lib/modules/smsmdtv.ko \
+    vendor/huawei/g630/proprietary/lib/modules/sp8870.ko:system/lib/modules/sp8870.ko \
+    vendor/huawei/g630/proprietary/lib/modules/sp887x.ko:system/lib/modules/sp887x.ko \
+    vendor/huawei/g630/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
+    vendor/huawei/g630/proprietary/lib/modules/stb0899.ko:system/lib/modules/stb0899.ko \
+    vendor/huawei/g630/proprietary/lib/modules/stb6000.ko:system/lib/modules/stb6000.ko \
+    vendor/huawei/g630/proprietary/lib/modules/stb6100.ko:system/lib/modules/stb6100.ko \
+    vendor/huawei/g630/proprietary/lib/modules/stv0288.ko:system/lib/modules/stv0288.ko \
+    vendor/huawei/g630/proprietary/lib/modules/stv0297.ko:system/lib/modules/stv0297.ko \
+    vendor/huawei/g630/proprietary/lib/modules/stv0299.ko:system/lib/modules/stv0299.ko \
+    vendor/huawei/g630/proprietary/lib/modules/stv0367.ko:system/lib/modules/stv0367.ko \
+    vendor/huawei/g630/proprietary/lib/modules/stv0900.ko:system/lib/modules/stv0900.ko \
+    vendor/huawei/g630/proprietary/lib/modules/stv090x.ko:system/lib/modules/stv090x.ko \
+    vendor/huawei/g630/proprietary/lib/modules/stv6110.ko:system/lib/modules/stv6110.ko \
+    vendor/huawei/g630/proprietary/lib/modules/stv6110x.ko:system/lib/modules/stv6110x.ko \
+    vendor/huawei/g630/proprietary/lib/modules/tda10021.ko:system/lib/modules/tda10021.ko \
+    vendor/huawei/g630/proprietary/lib/modules/tda10023.ko:system/lib/modules/tda10023.ko \
+    vendor/huawei/g630/proprietary/lib/modules/tda10048.ko:system/lib/modules/tda10048.ko \
+    vendor/huawei/g630/proprietary/lib/modules/tda1004x.ko:system/lib/modules/tda1004x.ko \
+    vendor/huawei/g630/proprietary/lib/modules/tda10071.ko:system/lib/modules/tda10071.ko \
+    vendor/huawei/g630/proprietary/lib/modules/tda10086.ko:system/lib/modules/tda10086.ko \
+    vendor/huawei/g630/proprietary/lib/modules/tda18271c2dd.ko:system/lib/modules/tda18271c2dd.ko \
+    vendor/huawei/g630/proprietary/lib/modules/tda665x.ko:system/lib/modules/tda665x.ko \
+    vendor/huawei/g630/proprietary/lib/modules/tda8083.ko:system/lib/modules/tda8083.ko \
+    vendor/huawei/g630/proprietary/lib/modules/tda8261.ko:system/lib/modules/tda8261.ko \
+    vendor/huawei/g630/proprietary/lib/modules/tda826x.ko:system/lib/modules/tda826x.ko \
+    vendor/huawei/g630/proprietary/lib/modules/tua6100.ko:system/lib/modules/tua6100.ko \
+    vendor/huawei/g630/proprietary/lib/modules/ves1820.ko:system/lib/modules/ves1820.ko \
+    vendor/huawei/g630/proprietary/lib/modules/ves1x93.ko:system/lib/modules/ves1x93.ko \
+    vendor/huawei/g630/proprietary/lib/modules/zl10036.ko:system/lib/modules/zl10036.ko \
+    vendor/huawei/g630/proprietary/lib/modules/zl10039.ko:system/lib/modules/zl10039.ko \
+    vendor/huawei/g630/proprietary/lib/modules/zl10353.ko:system/lib/modules/zl10353.ko
 
 
+#***#
 PRODUCT_COPY_FILES += \
     vendor/huawei/g630/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     $(PATH_FILES)/bin/afar:system/bin/afar \
@@ -352,7 +457,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Y530-U051.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Y530-U051.bin \
     vendor/huawei/g630/proprietary/wifi/wifi_mt_2.3.sh:system/wifi/wifi_mt_2.3.sh \
     vendor/huawei/g630/proprietary/wifi/wifi_mt_finish_2.3.sh:system/wifi/wifi_mt_finish_2.3.sh \
-    vendor/huawei/g630/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/huawei/g630/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/huawei/g630/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/huawei/g630/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
