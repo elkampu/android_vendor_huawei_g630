@@ -457,6 +457,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Y530-U051.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Y530-U051.bin \
     vendor/huawei/g630/proprietary/wifi/wifi_mt_2.3.sh:system/wifi/wifi_mt_2.3.sh \
     vendor/huawei/g630/proprietary/wifi/wifi_mt_finish_2.3.sh:system/wifi/wifi_mt_finish_2.3.sh \
+    vendor/huawei/g630/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/huawei/g630/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/huawei/g630/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/huawei/g630/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
