@@ -332,6 +332,16 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g630/proprietary/lib/modules/zl10039.ko:system/lib/modules/zl10039.ko \
     vendor/huawei/g630/proprietary/lib/modules/zl10353.ko:system/lib/modules/zl10353.ko
 
+#WCNSS & WIFI
+PRODUCT_COPY_FILES += \
+    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv.bin:system/etc/wifi/WCNSS_hw_wlan_nv.bin \
+    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_hw_wlan_nv.bin \
+    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G630_U00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G630_U00.bin \
+    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G630_U20.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G630_U20.bin \
+    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G630_U251.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G630_U251.bin \
+    vendor/huawei/g630/proprietary/wifi/wifi_mt_2.3.sh:system/wifi/wifi_mt_2.3.sh \
+    vendor/huawei/g630/proprietary/wifi/wifi_mt_finish_2.3.sh:system/wifi/wifi_mt_finish_2.3.sh \
+
 
 #***#
 PRODUCT_COPY_FILES += \
@@ -439,24 +449,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/g630/proprietary/etc/firmware/g630_ofilm2_fw.img:system/etc/firmware/g630_ofilm2_fw.img \
     vendor/huawei/g630/proprietary/etc/firmware/goodix_fw_g630.bin:system/etc/firmware/goodix_fw_g630.bin \
     vendor/huawei/g630/proprietary/etc/firmware/synaptics_fw_g630.img:system/etc/firmware/synaptics_fw_g630.img \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv.bin:system/etc/wifi/WCNSS_hw_wlan_nv.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_C00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_C00.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_U00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_U00.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_U10.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_U10.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_U34.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_U34.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G6_U251.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G6_U251.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G615_U10.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G615_U10.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G620_C10.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G620_C10.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G620D.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G620D.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G630_U00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G630_U00.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G630_U20.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G630_U20.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G630_U251.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G630_U251.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_G730_C10.bin:system/etc/wifi/WCNSS_hw_wlan_nv_G730_C10.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Y330_C00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Y330_C00.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Y530-U00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Y530-U00.bin \
-    vendor/huawei/g630/proprietary/etc/wifi/WCNSS_hw_wlan_nv_Y530-U051.bin:system/etc/wifi/WCNSS_hw_wlan_nv_Y530-U051.bin \
-    vendor/huawei/g630/proprietary/wifi/wifi_mt_2.3.sh:system/wifi/wifi_mt_2.3.sh \
-    vendor/huawei/g630/proprietary/wifi/wifi_mt_finish_2.3.sh:system/wifi/wifi_mt_finish_2.3.sh \
     vendor/huawei/g630/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/huawei/g630/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/huawei/g630/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
